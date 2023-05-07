@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    /* background-color: rgb(99, 229, 12); */
+    position:absolute;
+    width: 250px;
+    background-color: grey;
+    font-family: sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 18px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    /* background-color: rgb(255, 208, 0); */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: rgb(212, 212, 15); */
+    /* background-color: rgb(219, 8, 142); */
+    height: 60vh;
+    width: 80vw;
+    margin:144px auto;
+    display: flex;
+    justify-content:space-around;
+}
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.hello{
+font-size: 3em;
+}
+.name{
+font-size: 3em;
+font-weight: bold;
+font-family: sans-serif;
+
+}
+.about{
+font-size: 2.5em;
+}
+.devpic img{
+height: 84vh;
+}
+.contactform{
+    font-family: 'Poppins', sans-serif;
+    padding: 0 34px;
+    margin: 0 88px;
+
+}
+.contactform h1{
+    font-family: 'Poppins', sans-serif;
+    /* padding: 12px 0; */
+   
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    /* width: 26vw; */
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+.contactform form{
+   margin: 0 40px;
+}
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 24px;
+    color: white;
+    background-color: rgb(217, 87, 27);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: white;
+    color:  rgb(217, 87, 27);
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+.blogContainer{
+    margin: 30px 88px;
+}
+.blogItem{
+    margin: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 23px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    width: 300px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-body h2 {
+    margin-top: 0;
+  }
+  
+  .card-body p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+.cardplace-1{
+    display: flex;
+    justify-content: space-around;
+}  
+.cardplace-2{
+    display: flex;
+    justify-content: space-around;
+}  
+.intro{
+    margin: 56px 56px;
+}
+.intro h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 12px;
+
+}
+.intro p{
+    font-family: 'Poppins', sans-serif;
+    margin: 12px;
+}
+.skillContainer{
+    margin: 20px;
+}
+
+.skillItem{
+    display: flex;
+    align-items:center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: blue;
+    border: 2px solid black;
+}
+.hundred{
+    width: 265px;
+    background-color: green;
+
+}
+.fifty{
+    width: 90px;
+    background-color: red;
+
+}
+.s75{
+width: 125px;
+background-color: yellowgreen;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross{
+    margin-left: 185px;
+    margin-top: 13px;
+
+}
+@media(max-width: 1615px) {
+    /* .devpic{
+        display: none;
+    } */
+    /* *{
+        background-color: rgb(204, 90, 90);
+    }
+    
+    .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+}
+.intro, .blogContainer, .contactform{
+    margin: 56px 10px;
+}
+.devpic{
+    width: 200px;
+}
